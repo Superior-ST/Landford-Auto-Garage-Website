@@ -1,0 +1,1218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--
+===========================================================
+  LANDFORD AUTO GARAGE - WEBSITE v3.0
+  Complete with Owner Dashboard, SEO & Security
+===========================================================
+  HOW TO EDIT (NO CODING NEEDED):
+  1. Open this file in Notepad or any text editor
+  2. Find SITE_CONFIG (~line 65) 
+  3. Change values between the quotes
+  4. Save - changes apply everywhere automatically
+  5. Dashboard: click button top-right, default password: landford2025
+     CHANGE THE PASSWORD BEFORE HANDING OVER!
+===========================================================
+-->
+<!-- SEO -->
+<title>Landford Auto Garage - Expert Car Repairs Nairobi | Five Star Road</title>
+<meta name="description" content="Landford Auto Garage on Five Star Road, Nairobi. Engine diagnostics, brakes, AC, electrical and full servicing. Rated 4.5 stars on Google. Call 0723 574 281.">
+<meta name="keywords" content="car garage Nairobi, auto repair Nairobi, mechanic Five Star Road, Landford Auto Garage, engine diagnostics Kenya, brake service Nairobi, best garage Nairobi">
+<meta name="author" content="Landford Auto Garage">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#f05a1a">
+<link rel="canonical" href="https://www.landfordautogarage.co.ke/">
+<!-- Open Graph / WhatsApp / Facebook -->
+<meta property="og:type" content="business.business">
+<meta property="og:title" content="Landford Auto Garage - Nairobi Trusted Auto Experts">
+<meta property="og:description" content="Expert car repairs on Five Star Road Nairobi. Rated 4.5 stars. Call 0723 574 281.">
+<meta property="og:url" content="https://www.landfordautogarage.co.ke/">
+<meta property="og:locale" content="en_KE">
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Landford Auto Garage - Nairobi">
+<meta name="twitter:description" content="Professional auto repairs on Five Star Road Nairobi. Rated 4.5 stars. Call 0723 574 281.">
+<!-- SECURITY HEADERS -->
+<meta http-equiv="X-Content-Type-Options" content="nosniff">
+<meta http-equiv="X-Frame-Options" content="SAMEORIGIN">
+<meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
+<meta http-equiv="Permissions-Policy" content="geolocation=(), microphone=(), camera=()">
+<!-- Google Rich Results Schema -->
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"AutoRepair","name":"Landford Auto Garage","url":"https://www.landfordautogarage.co.ke","telephone":"+254723574281","address":{"@type":"PostalAddress","streetAddress":"Five Star Road","addressLocality":"Nairobi","addressCountry":"KE"},"geo":{"@type":"GeoCoordinates","latitude":-1.2921,"longitude":36.8219},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"opens":"08:00","closes":"18:00"}],"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.5","reviewCount":"22"},"sameAs":["https://www.tiktok.com/@landford_auto_garage","https://www.instagram.com/landfordautogarage"],"priceRange":"KSh","hasMap":"https://g.co/kgs/MRJ9WX"}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--black:#0a0a0a;--deep:#111216;--card:#16181d;--border:#252830;--orange:#f05a1a;--orange-light:#ff7b40;--orange-glow:rgba(240,90,26,0.18);--white:#f5f5f0;--muted:#9098a8;--text:#d8dce6;--green:#22c55e;--blue:#3b82f6;--red:#ef4444;--yellow:#f59e0b;--purple:#8b5cf6}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
+body{background:var(--black);color:var(--text);font-family:"Outfit",sans-serif;overflow-x:hidden}
+nav{position:fixed;top:0;left:0;right:0;z-index:200;display:flex;align-items:center;justify-content:space-between;padding:0 5vw;height:70px;background:rgba(10,10,10,.93);backdrop-filter:blur(20px);border-bottom:1px solid var(--border)}
+.nav-logo{font-family:"Bebas Neue",sans-serif;font-size:1.7rem;letter-spacing:2px;color:var(--white);text-decoration:none}.nav-logo span{color:var(--orange)}
+.nav-links{display:flex;gap:36px;list-style:none}.nav-links a{text-decoration:none;color:var(--muted);font-size:.88rem;font-weight:500;letter-spacing:.5px;text-transform:uppercase;transition:color .25s}.nav-links a:hover{color:var(--orange)}
+.nav-right{display:flex;align-items:center;gap:12px}
+.nav-cta{background:var(--orange);color:#fff;padding:9px 22px;border-radius:4px;font-size:.85rem;font-weight:600;text-decoration:none;text-transform:uppercase;transition:background .25s,transform .2s}.nav-cta:hover{background:var(--orange-light);transform:translateY(-1px)}
+.nav-dash-btn{background:transparent;border:1px solid var(--border);color:var(--muted);padding:8px 16px;border-radius:4px;font-size:.78rem;font-weight:600;cursor:pointer;text-transform:uppercase;font-family:"Outfit",sans-serif;transition:all .25s}.nav-dash-btn:hover{border-color:var(--orange);color:var(--orange)}
+.burger{display:none;flex-direction:column;gap:5px;cursor:pointer;background:none;border:none;padding:4px}.burger span{display:block;width:24px;height:2px;background:var(--white);border-radius:2px}
+#hero{position:relative;min-height:100vh;display:flex;align-items:center;padding:70px 5vw 0;overflow:hidden}
+.hero-bg{position:absolute;inset:0;z-index:0;background:radial-gradient(ellipse 80% 60% at 70% 50%,rgba(240,90,26,.12) 0%,transparent 70%),linear-gradient(160deg,#0a0a0a 45%,#14100d 100%)}
+.hero-grid{position:absolute;inset:0;z-index:0;background-image:linear-gradient(var(--border) 1px,transparent 1px),linear-gradient(90deg,var(--border) 1px,transparent 1px);background-size:60px 60px;opacity:.35}
+.hero-content{position:relative;z-index:1;max-width:680px}
+.hero-tag{display:inline-flex;align-items:center;gap:8px;background:var(--orange-glow);border:1px solid rgba(240,90,26,.35);border-radius:100px;padding:5px 14px;font-size:.78rem;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:var(--orange);margin-bottom:28px}
+.hero-tag::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--orange);animation:pulse 1.8s infinite;flex-shrink:0}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.5;transform:scale(.7)}}
+h1{font-family:"Bebas Neue",sans-serif;font-size:clamp(3.5rem,8vw,7rem);line-height:.95;letter-spacing:2px;color:var(--white);margin-bottom:24px}
+h1 .accent{color:var(--orange);display:block}
+.hero-sub{font-size:1.05rem;line-height:1.7;color:var(--muted);max-width:480px;margin-bottom:40px}
+.hero-btns{display:flex;gap:16px;flex-wrap:wrap}
+.btn-primary{background:var(--orange);color:#fff;padding:14px 32px;border-radius:6px;font-size:.92rem;font-weight:600;text-decoration:none;text-transform:uppercase;transition:background .25s,transform .2s,box-shadow .25s;display:inline-block}.btn-primary:hover{background:var(--orange-light);transform:translateY(-2px);box-shadow:0 8px 30px rgba(240,90,26,.35)}
+.btn-ghost{border:1px solid var(--border);color:var(--white);padding:14px 32px;border-radius:6px;font-size:.92rem;font-weight:500;text-decoration:none;text-transform:uppercase;transition:border-color .25s,color .25s;display:inline-block}.btn-ghost:hover{border-color:var(--orange);color:var(--orange)}
+.hero-stats{position:relative;z-index:1;display:flex;gap:48px;margin-top:72px;padding-top:40px;border-top:1px solid var(--border);flex-wrap:wrap}
+.stat-num{font-family:"Bebas Neue",sans-serif;font-size:2.8rem;color:var(--orange);line-height:1}.stat-label{font-size:.8rem;color:var(--muted);letter-spacing:.5px;text-transform:uppercase;margin-top:4px}
+.hero-car{position:absolute;right:-2%;bottom:0;z-index:1;width:52%;max-width:760px;opacity:.88}
+section{padding:100px 5vw}
+.section-label{font-size:.75rem;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:var(--orange);margin-bottom:14px}
+h2{font-family:"Bebas Neue",sans-serif;font-size:clamp(2.4rem,5vw,3.8rem);color:var(--white);letter-spacing:1.5px;line-height:1}
+.section-desc{color:var(--muted);line-height:1.7;max-width:520px;margin-top:14px}
+.ticker-wrap{overflow:hidden;background:var(--orange);padding:12px 0}
+.ticker{display:flex;gap:60px;width:max-content;animation:ticker 22s linear infinite}
+.ticker span{font-family:"Bebas Neue",sans-serif;font-size:1.1rem;letter-spacing:2px;color:#fff;white-space:nowrap}
+.ticker span::before{content:"\2736";margin-right:60px;opacity:.6}
+@keyframes ticker{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+#services{background:var(--deep)}
+.services-header{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:56px;flex-wrap:wrap;gap:20px}
+.services-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:2px}
+.service-card{background:var(--card);padding:36px 32px;border:1px solid var(--border);position:relative;overflow:hidden;transition:border-color .3s,transform .3s;cursor:default}
+.service-card::before{content:"";position:absolute;bottom:0;left:0;right:0;height:3px;background:var(--orange);transform:scaleX(0);transform-origin:left;transition:transform .35s}
+.service-card:hover{border-color:rgba(240,90,26,.4);transform:translateY(-4px)}.service-card:hover::before{transform:scaleX(1)}
+.service-icon{width:52px;height:52px;border-radius:10px;background:var(--orange-glow);border:1px solid rgba(240,90,26,.25);display:flex;align-items:center;justify-content:center;font-size:1.5rem;margin-bottom:20px}
+.service-title{font-family:"Bebas Neue",sans-serif;font-size:1.4rem;letter-spacing:1px;color:var(--white);margin-bottom:10px}
+.service-desc{font-size:.88rem;color:var(--muted);line-height:1.65}
+#why{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center}
+.why-img-box{background:var(--card);border:1px solid var(--border);border-radius:12px;overflow:hidden;aspect-ratio:4/3;display:flex;align-items:center;justify-content:center;position:relative}
+.why-badge{position:absolute;bottom:-20px;right:-20px;background:var(--orange);border-radius:12px;padding:20px 24px;text-align:center;box-shadow:0 12px 40px rgba(240,90,26,.4)}
+.why-badge .num{font-family:"Bebas Neue",sans-serif;font-size:2.4rem;color:#fff;line-height:1}.why-badge .lbl{font-size:.75rem;color:rgba(255,255,255,.8);text-transform:uppercase;letter-spacing:1px}
+.why-list{list-style:none;margin-top:32px;display:flex;flex-direction:column;gap:20px}
+.why-item{display:flex;gap:16px;align-items:flex-start;padding:18px 20px;background:var(--card);border:1px solid var(--border);border-radius:8px;transition:border-color .25s}.why-item:hover{border-color:rgba(240,90,26,.4)}
+.why-dot{width:10px;height:10px;border-radius:50%;background:var(--orange);flex-shrink:0;margin-top:5px}
+.why-item-title{font-weight:600;color:var(--white);margin-bottom:4px;font-size:.95rem}.why-item-desc{font-size:.85rem;color:var(--muted);line-height:1.6}
+#reviews{background:var(--deep)}
+.reviews-header{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:56px;flex-wrap:wrap;gap:20px}
+.rating-num{font-family:"Bebas Neue",sans-serif;font-size:5rem;color:var(--orange);line-height:1}
+.xstars{display:flex;gap:4px;margin:4px 0}.xstar{color:var(--orange);font-size:1.1rem}
+.reviews-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:20px}
+.review-card{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:28px 26px;position:relative;transition:border-color .3s}.review-card:hover{border-color:rgba(240,90,26,.3)}
+.review-text{font-size:.9rem;color:var(--muted);line-height:1.7;margin-bottom:20px}
+.reviewer{display:flex;align-items:center;gap:12px}
+.rev-avatar{width:38px;height:38px;border-radius:50%;background:var(--orange-glow);border:1px solid rgba(240,90,26,.3);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:.85rem;color:var(--orange);flex-shrink:0}
+.rev-name{font-weight:600;font-size:.88rem;color:var(--white)}.rev-date{font-size:.75rem;color:var(--muted)}
+#social{background:var(--deep);text-align:center;padding:80px 5vw}
+.social-links{display:flex;justify-content:center;gap:20px;flex-wrap:wrap;margin-top:32px}
+.social-btn{display:flex;align-items:center;gap:10px;padding:14px 28px;border-radius:8px;text-decoration:none;font-weight:600;font-size:.9rem;transition:transform .25s,box-shadow .25s}.social-btn:hover{transform:translateY(-3px)}
+.social-btn.tiktok{background:#111;border:1px solid #333;color:#fff}.social-btn.tiktok:hover{box-shadow:0 8px 30px rgba(0,0,0,.5);border-color:#555}
+.social-btn.insta{background:linear-gradient(135deg,#f09433,#e6683c,#dc2743,#cc2366,#bc1888);color:#fff}.social-btn.insta:hover{box-shadow:0 8px 30px rgba(220,39,67,.4)}
+.social-btn.phone{background:var(--orange);color:#fff}.social-btn.phone:hover{box-shadow:0 8px 30px rgba(240,90,26,.4)}
+#contact{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:start}
+.contact-item{display:flex;gap:16px;align-items:flex-start;margin-bottom:28px}
+.contact-icon{width:44px;height:44px;border-radius:8px;flex-shrink:0;background:var(--orange-glow);border:1px solid rgba(240,90,26,.25);display:flex;align-items:center;justify-content:center;font-size:1.1rem}
+.contact-label{font-size:.75rem;color:var(--muted);text-transform:uppercase;letter-spacing:1px}
+.contact-val{color:var(--white);font-weight:500;margin-top:2px;font-size:.95rem}.contact-val a{color:var(--orange);text-decoration:none}.contact-val a:hover{text-decoration:underline}
+.contact-form{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:40px}
+.form-row{margin-bottom:20px}
+label{display:block;font-size:.8rem;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.8px;margin-bottom:8px}
+input,textarea,select{width:100%;background:var(--deep);border:1px solid var(--border);border-radius:6px;padding:13px 16px;color:var(--white);font-family:"Outfit",sans-serif;font-size:.92rem;outline:none;transition:border-color .25s}
+input:focus,textarea:focus,select:focus{border-color:var(--orange)}
+textarea{resize:vertical;min-height:120px}select option{background:var(--deep)}
+.form-submit{width:100%;background:var(--orange);color:#fff;border:none;padding:15px;border-radius:6px;font-family:"Outfit",sans-serif;font-size:.92rem;font-weight:700;letter-spacing:1px;text-transform:uppercase;cursor:pointer;transition:background .25s,transform .2s}.form-submit:hover{background:var(--orange-light);transform:translateY(-1px)}
+.form-msg{display:none;margin-top:14px;padding:12px 16px;border-radius:6px;font-size:.88rem;font-weight:500}
+.form-msg.success{background:rgba(34,197,94,.15);border:1px solid rgba(34,197,94,.35);color:var(--green)}
+.form-msg.error{background:rgba(239,68,68,.15);border:1px solid rgba(239,68,68,.35);color:var(--red)}
+footer{background:#070709;border-top:1px solid var(--border);padding:50px 5vw 30px}
+.footer-inner{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:24px;margin-bottom:30px}
+.footer-logo{font-family:"Bebas Neue",sans-serif;font-size:1.6rem;letter-spacing:2px;color:var(--white)}.footer-logo span{color:var(--orange)}
+.footer-tagline{font-size:.8rem;color:var(--muted);margin-top:4px}
+.footer-links{display:flex;gap:24px;list-style:none;flex-wrap:wrap}.footer-links a{color:var(--muted);text-decoration:none;font-size:.85rem;transition:color .2s}.footer-links a:hover{color:var(--orange)}
+.footer-bottom{text-align:center;font-size:.78rem;color:var(--border);padding-top:24px;border-top:1px solid var(--border)}
+.reveal{opacity:0;transform:translateY(28px);transition:opacity .65s ease,transform .65s ease}.reveal.visible{opacity:1;transform:none}
+/* DASHBOARD */
+#dash-login-overlay,#dash-overlay{position:fixed;inset:0;z-index:9999;display:none;align-items:center;justify-content:center}
+#dash-login-overlay{background:rgba(0,0,0,.92);backdrop-filter:blur(14px)}
+.login-box{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:48px 40px;width:100%;max-width:420px;text-align:center}
+.login-box h3{font-family:"Bebas Neue",sans-serif;font-size:2rem;color:var(--white);letter-spacing:2px;margin-bottom:8px}
+.login-box p{color:var(--muted);font-size:.88rem;margin-bottom:28px}
+.login-input{width:100%;background:var(--deep);border:1px solid var(--border);border-radius:8px;padding:14px 18px;color:var(--white);font-family:"Outfit",sans-serif;font-size:1rem;outline:none;transition:border-color .25s;margin-bottom:14px;text-align:center;letter-spacing:3px}.login-input:focus{border-color:var(--orange)}
+.login-btn{width:100%;background:var(--orange);color:#fff;border:none;padding:14px;border-radius:8px;font-family:"Bebas Neue",sans-serif;font-size:1.2rem;letter-spacing:2px;cursor:pointer;transition:background .25s}.login-btn:hover{background:var(--orange-light)}
+.login-error{display:none;color:var(--red);font-size:.85rem;margin-top:12px;padding:10px;background:rgba(239,68,68,.1);border:1px solid rgba(239,68,68,.25);border-radius:6px}
+.login-close{background:none;border:none;color:var(--muted);cursor:pointer;font-family:"Outfit",sans-serif;font-size:.85rem;margin-top:16px;text-decoration:underline}
+#dash-overlay{background:var(--black);overflow-y:auto;flex-direction:column}
+.dash-inner{width:100%;min-height:100%;padding-bottom:60px}
+.dash-topbar{display:flex;justify-content:space-between;align-items:center;padding:20px 40px;background:var(--deep);border-bottom:1px solid var(--border);position:sticky;top:0;z-index:10;flex-wrap:wrap;gap:12px}
+.dash-title{font-family:"Bebas Neue",sans-serif;font-size:1.8rem;letter-spacing:2px;color:var(--white)}.dash-title span{color:var(--orange)}
+.dash-close{background:rgba(239,68,68,.15);border:1px solid rgba(239,68,68,.35);color:var(--red);padding:9px 20px;border-radius:6px;cursor:pointer;font-family:"Outfit",sans-serif;font-size:.85rem;font-weight:600;transition:background .25s}.dash-close:hover{background:rgba(239,68,68,.3)}
+.dash-tabs{display:flex;gap:8px;padding:20px 40px 0;border-bottom:1px solid var(--border)}
+.dash-tab{background:none;border:none;border-bottom:2px solid transparent;color:var(--muted);padding:10px 20px;cursor:pointer;font-family:"Outfit",sans-serif;font-size:.88rem;font-weight:600;text-transform:uppercase;letter-spacing:.5px;transition:all .25s;margin-bottom:-1px}
+.dash-tab.active{color:var(--orange);border-bottom-color:var(--orange)}.dash-tab:hover{color:var(--white)}
+.dsn-nav{display:flex;gap:10px;padding:20px 40px;flex-wrap:wrap}
+.dsn-btn{background:var(--card);border:1px solid var(--border);color:var(--muted);padding:8px 18px;border-radius:6px;cursor:pointer;font-family:"Outfit",sans-serif;font-size:.82rem;font-weight:600;transition:all .25s}
+.dsn-btn.active,.dsn-btn:hover{background:var(--orange-glow);border-color:var(--orange);color:var(--orange)}
+.kpi-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:16px;padding:0 40px 28px}
+.kpi-card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:22px 24px;position:relative;overflow:hidden;transition:border-color .25s}.kpi-card:hover{border-color:rgba(240,90,26,.4)}
+.kpi-card::after{content:"";position:absolute;top:0;left:0;right:0;height:3px;border-radius:12px 12px 0 0}
+.kpi-card.orange::after{background:var(--orange)}.kpi-card.green::after{background:var(--green)}.kpi-card.blue::after{background:var(--blue)}.kpi-card.yellow::after{background:var(--yellow)}.kpi-card.purple::after{background:var(--purple)}
+.kpi-icon{font-size:1.6rem;margin-bottom:12px}
+.kpi-val{font-family:"Bebas Neue",sans-serif;font-size:2.4rem;color:var(--white);line-height:1}
+.kpi-label{font-size:.78rem;color:var(--muted);text-transform:uppercase;letter-spacing:.8px;margin-top:4px}
+.kpi-delta{font-size:.75rem;margin-top:6px;display:inline-flex;align-items:center;gap:4px;padding:2px 8px;border-radius:100px;background:rgba(144,152,168,.1);color:var(--muted)}
+.charts-row{display:grid;grid-template-columns:2fr 1fr;gap:20px;padding:0 40px 28px}
+.chart-card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:24px}
+.chart-title{font-size:.88rem;font-weight:600;color:var(--white);margin-bottom:20px}
+.bar-chart{display:flex;gap:6px;align-items:flex-end;height:130px}
+.bar-wrap{flex:1;display:flex;flex-direction:column;align-items:center;position:relative}
+.bar{width:100%;background:var(--orange-glow);border:1px solid rgba(240,90,26,.3);border-radius:3px 3px 0 0;cursor:pointer;transition:background .25s;position:relative;min-height:4px}
+.bar:hover{background:var(--orange)}
+.bar-tip{position:absolute;top:-36px;left:50%;transform:translateX(-50%);background:var(--deep);border:1px solid var(--border);color:var(--white);font-size:.63rem;padding:3px 7px;border-radius:4px;white-space:nowrap;opacity:0;transition:opacity .2s;pointer-events:none;z-index:5}.bar:hover .bar-tip{opacity:1}
+.bar-lbls{display:flex;gap:6px;margin-top:8px}
+.bar-lbl{flex:1;text-align:center;font-size:.58rem;color:var(--muted);overflow:hidden}
+.donut-wrap{display:flex;flex-direction:column;align-items:center;gap:16px}
+.donut{transform:rotate(-90deg)}
+.donut-legend{display:flex;flex-direction:column;gap:8px;width:100%}
+.legend-item{display:flex;align-items:center;gap:8px;font-size:.8rem;color:var(--muted)}
+.legend-dot{width:10px;height:10px;border-radius:50%;flex-shrink:0}
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:20px;padding:0 40px 28px}
+.act-card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:24px}
+.act-item{display:flex;gap:12px;align-items:flex-start;padding:10px 0;border-bottom:1px solid rgba(37,40,48,.5)}.act-item:last-child{border-bottom:none}
+.act-dot{width:8px;height:8px;border-radius:50%;flex-shrink:0;margin-top:5px}
+.act-text{font-size:.85rem;color:var(--text)}.act-time{font-size:.72rem;color:var(--muted);margin-top:2px}
+.tbl-wrap{margin:0 40px 28px;background:var(--card);border:1px solid var(--border);border-radius:12px;overflow:hidden}
+.tbl-head{display:flex;justify-content:space-between;align-items:center;padding:20px 24px;border-bottom:1px solid var(--border);flex-wrap:wrap;gap:10px}
+.tbl-head h4{font-size:.95rem;font-weight:600;color:var(--white)}
+table{width:100%;border-collapse:collapse;font-size:.85rem}
+thead tr{background:rgba(255,255,255,.03)}
+th{padding:12px 16px;text-align:left;font-size:.72rem;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.8px;border-bottom:1px solid var(--border)}
+td{padding:14px 16px;border-bottom:1px solid rgba(37,40,48,.5);color:var(--text)}
+tbody tr:last-child td{border-bottom:none}tbody tr:hover td{background:rgba(255,255,255,.02)}
+.badge{display:inline-block;padding:3px 10px;border-radius:100px;font-size:.72rem;font-weight:600;text-transform:capitalize}
+.badge.pending{background:rgba(245,158,11,.15);color:var(--yellow);border:1px solid rgba(245,158,11,.3)}
+.badge.confirmed{background:rgba(59,130,246,.15);color:var(--blue);border:1px solid rgba(59,130,246,.3)}
+.badge.completed{background:rgba(34,197,94,.15);color:var(--green);border:1px solid rgba(34,197,94,.3)}
+.badge.paid{background:rgba(34,197,94,.15);color:var(--green);border:1px solid rgba(34,197,94,.3)}
+.badge.unpaid{background:rgba(245,158,11,.15);color:var(--yellow);border:1px solid rgba(245,158,11,.3)}
+.pay-add-row{display:grid;grid-template-columns:1fr 1fr 1fr 1fr auto;gap:12px;align-items:flex-end;padding:20px 24px;border-bottom:1px solid var(--border)}
+.pay-add-row input,.pay-add-row select{background:var(--deep);border:1px solid var(--border);border-radius:6px;padding:10px 12px;color:var(--white);font-family:"Outfit",sans-serif;font-size:.85rem;outline:none;width:100%}
+.pay-add-row input:focus,.pay-add-row select:focus{border-color:var(--orange)}
+.add-btn{background:var(--green);color:#fff;border:none;padding:10px 18px;border-radius:6px;cursor:pointer;font-weight:600;font-size:.85rem;font-family:"Outfit",sans-serif;white-space:nowrap;transition:background .25s}.add-btn:hover{background:#16a34a}
+.cfg-wrap{padding:0 40px 28px}
+.cfg-panel{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:32px}
+.cfg-panel h4{font-family:"Bebas Neue",sans-serif;font-size:1.5rem;letter-spacing:1px;color:var(--white);margin-bottom:8px}
+.cfg-panel p{color:var(--muted);font-size:.85rem;margin-bottom:24px}
+.cfg-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:24px}
+.cfg-field label{display:block;font-size:.75rem;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.8px;margin-bottom:6px}
+.cfg-field input{background:var(--deep);border:1px solid var(--border);border-radius:6px;padding:10px 14px;color:var(--white);font-family:"Outfit",sans-serif;font-size:.88rem;outline:none;transition:border-color .25s;width:100%}.cfg-field input:focus{border-color:var(--orange)}
+.cfg-save{background:var(--orange);color:#fff;border:none;padding:13px 32px;border-radius:6px;font-family:"Outfit",sans-serif;font-size:.92rem;font-weight:700;letter-spacing:1px;text-transform:uppercase;cursor:pointer;transition:background .25s}.cfg-save:hover{background:var(--orange-light)}
+#cfg-saved{display:none;margin-left:16px;color:var(--green);font-size:.88rem;font-weight:600}
+.xport-btn{background:var(--deep);border:1px solid var(--border);color:var(--text);padding:9px 16px;border-radius:6px;cursor:pointer;font-family:"Outfit",sans-serif;font-size:.82rem;font-weight:600;transition:all .25s}.xport-btn:hover{border-color:var(--orange);color:var(--orange)}
+.a-btn{padding:4px 10px;border-radius:4px;cursor:pointer;font-size:.72rem;font-family:"Outfit",sans-serif;border:1px solid;transition:background .2s;margin-right:4px}
+.a-confirm{background:rgba(59,130,246,.15);border-color:rgba(59,130,246,.3);color:#3b82f6}
+.a-done{background:rgba(34,197,94,.15);border-color:rgba(34,197,94,.3);color:#22c55e}
+.a-del{background:rgba(239,68,68,.1);border-color:rgba(239,68,68,.3);color:var(--red)}
+@media(max-width:1100px){.charts-row{grid-template-columns:1fr}.two-col{grid-template-columns:1fr}.cfg-grid{grid-template-columns:1fr}.pay-add-row{grid-template-columns:1fr 1fr}}
+@media(max-width:900px){.nav-links,.nav-cta{display:none}.burger{display:flex}#hero{flex-direction:column;text-align:center;padding-top:90px}.hero-content{max-width:100%}.hero-btns{justify-content:center}.hero-stats{justify-content:center}.hero-car{display:none}#why,#contact{grid-template-columns:1fr;gap:40px}.dash-topbar,.kpi-grid,.charts-row,.tbl-wrap,.two-col,.cfg-wrap,.dsn-nav,.dash-tabs{padding-left:12px;padding-right:12px}.tbl-wrap{margin-left:12px;margin-right:12px}.pay-add-row{grid-template-columns:1fr;padding:16px}}
+@media(max-width:600px){h1{font-size:3.2rem}section{padding:70px 5vw}.kpi-grid{grid-template-columns:1fr 1fr}}
+
+/* HERO SLIDER */
+.hero-slider{position:absolute;inset:0;z-index:0;overflow:hidden}
+.hero-slide{position:absolute;inset:0;background-size:cover;background-position:center;opacity:0;transition:opacity 1.6s ease}
+.hero-slide.active{opacity:1}
+.hero-slide-overlay{position:absolute;inset:0;background:linear-gradient(135deg,rgba(0,0,0,.82) 0%,rgba(10,10,10,.55) 50%,rgba(240,90,26,.06) 100%)}
+.slider-dots{position:absolute;bottom:36px;left:50%;transform:translateX(-50%);display:flex;gap:10px;z-index:5}
+.sdot{width:8px;height:8px;border-radius:50%;background:rgba(255,255,255,.35);cursor:pointer;transition:all .3s;border:none;padding:0}
+.sdot.active{background:var(--orange);width:28px;border-radius:4px}
+.slider-arrow{position:absolute;top:50%;transform:translateY(-50%);z-index:5;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.15);color:#fff;width:48px;height:48px;border-radius:50%;cursor:pointer;font-size:1.2rem;transition:all .25s;display:flex;align-items:center;justify-content:center}
+.slider-arrow:hover{background:var(--orange);border-color:var(--orange)}
+.slider-arrow.prev{left:24px}.slider-arrow.next{right:24px}
+.slide-counter{position:absolute;top:90px;right:32px;z-index:5;font-family:"Bebas Neue",sans-serif;font-size:1rem;letter-spacing:2px;color:rgba(255,255,255,.5)}
+.slide-counter span{color:var(--orange)}
+#hero .hero-bg,#hero .hero-grid{display:none}
+/* GALLERY */
+#gallery{padding:0;overflow:hidden;background:var(--black)}
+.gallery-header{padding:60px 5vw 40px;display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:16px}
+.gallery-track-wrap{overflow:hidden;position:relative}
+.gallery-track-wrap::before,.gallery-track-wrap::after{content:"";position:absolute;top:0;bottom:0;width:80px;z-index:2;pointer-events:none}
+.gallery-track-wrap::before{left:0;background:linear-gradient(to right,var(--black),transparent)}
+.gallery-track-wrap::after{right:0;background:linear-gradient(to left,var(--black),transparent)}
+.gallery-track{display:flex;gap:4px;transition:transform .6s cubic-bezier(.25,.46,.45,.94)}
+.gallery-item{flex:0 0 calc(33.333% - 3px);position:relative;overflow:hidden;aspect-ratio:16/9;cursor:pointer}
+.gallery-item img{width:100%;height:100%;object-fit:cover;transition:transform .6s ease,filter .4s ease;filter:brightness(.85) saturate(1.1)}
+.gallery-item:hover img{transform:scale(1.06);filter:brightness(1) saturate(1.3)}
+.gallery-item-overlay{position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,.72) 0%,transparent 55%);opacity:0;transition:opacity .4s}
+.gallery-item:hover .gallery-item-overlay{opacity:1}
+.gallery-item-label{position:absolute;bottom:16px;left:16px;font-family:"Bebas Neue",sans-serif;font-size:1rem;letter-spacing:1.5px;color:#fff;opacity:0;transform:translateY(8px);transition:all .35s}
+.gallery-item:hover .gallery-item-label{opacity:1;transform:translateY(0)}
+.gallery-nav{display:flex;gap:10px;padding:24px 5vw 48px}
+.gnav-btn{background:var(--card);border:1px solid var(--border);color:var(--muted);width:44px;height:44px;border-radius:50%;cursor:pointer;font-size:1.1rem;transition:all .25s;display:flex;align-items:center;justify-content:center}
+.gnav-btn:hover{background:var(--orange);border-color:var(--orange);color:#fff}
+#lightbox{position:fixed;inset:0;z-index:10000;background:rgba(0,0,0,.97);display:none;align-items:center;justify-content:center;flex-direction:column}
+#lightbox.open{display:flex}
+.lb-img{max-width:94vw;max-height:86vh;object-fit:contain;border-radius:4px}
+.lb-close{position:absolute;top:20px;right:28px;background:none;border:none;color:#fff;font-size:2rem;cursor:pointer;opacity:.7;transition:opacity .2s}.lb-close:hover{opacity:1}
+.lb-caption{color:var(--muted);font-size:.88rem;margin-top:16px;letter-spacing:.5px;text-align:center;padding:0 20px}
+.lb-nav{position:absolute;top:50%;transform:translateY(-50%);background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.15);color:#fff;width:52px;height:52px;border-radius:50%;cursor:pointer;font-size:1.3rem;transition:all .25s;display:flex;align-items:center;justify-content:center}
+.lb-nav:hover{background:var(--orange)}.lb-prev{left:16px}.lb-next{right:16px}
+@media(max-width:900px){.gallery-item{flex:0 0 calc(50% - 2px)}.slider-arrow{display:none}}
+@media(max-width:600px){.gallery-item{flex:0 0 100%}}
+
+
+/* WhatsApp & Maps Buttons */
+.wa-btn{display:inline-flex;align-items:center;gap:8px;background:#25D366;color:#fff;padding:10px 18px;border-radius:8px;text-decoration:none;font-size:.88rem;font-weight:600;transition:background .25s,transform .2s;white-space:nowrap}
+.wa-btn:hover{background:#1da851;transform:translateY(-2px)}
+.maps-btn{display:inline-flex;align-items:center;gap:8px;background:#4285F4;color:#fff;padding:10px 18px;border-radius:8px;text-decoration:none;font-size:.88rem;font-weight:600;transition:background .25s,transform .2s;white-space:nowrap}
+.maps-btn:hover{background:#2b6fd4;transform:translateY(-2px)}
+
+</style>
+</head>
+<body>
+
+<script>
+/* =============================================================
+   SITE_CONFIG - EDIT VALUES HERE - NO CODING NEEDED
+   ============================================================= */
+const SITE_CONFIG = {
+  businessName:    "Landford Auto Garage",
+  tagline:         "Nairobi's Trusted Auto Experts",
+  heroLine1:       "Drive In.",
+  heroLine2:       "Drive Better.",
+  heroSub:         "Professional automotive repairs, servicing and diagnostics on Five Star Road, Nairobi. We treat your car like our own.",
+  address:         "Five Star Road, Nairobi, Kenya",
+  phone:           "0715 133 147",
+  phoneRaw:        "0715133147",
+  hours:           "Mon - Sat: 8:00 AM - 6:00 PM",
+  plusCode:        "MRJ9+WX Nairobi",
+  googleMaps:      "https://g.co/kgs/MRJ9WX",
+  googleRating:    "4.5",
+  reviewCount:     "22",
+  yearsExp:        "10+",
+  tiktokUrl:       "https://www.tiktok.com/@landford_auto_garage",
+  tiktokHandle:    "@landford_auto_garage",
+  instagramUrl:    "https://www.instagram.com/landfordautogarage",
+  instagramHandle: "@landfordautogarage",
+  dashboardPassword: "landford2025",
+  accentColor:     "#f05a1a",
+  copyrightYear:   "2025"
+};
+/* ============================================================= */
+
+function esc(s){const d=document.createElement("div");d.textContent=String(s??"");return d.innerHTML;}
+function si(s){return String(s??"").replace(/[<>"'&]/g,c=>({"<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;","&":"&amp;"}[c]));}
+function loadStore(k,d){try{const v=localStorage.getItem(k);return v?JSON.parse(v):d;}catch{return d;}}
+function saveStore(k,v){try{localStorage.setItem(k,JSON.stringify(v));}catch{}}
+
+function applyConfig(){
+  document.querySelectorAll("[data-cfg]").forEach(el=>{
+    const k=el.getAttribute("data-cfg");
+    if(SITE_CONFIG[k]===undefined)return;
+    if(el.tagName==="A"){el.href=(k==="phone"||k==="phoneRaw")?"tel:"+SITE_CONFIG.phoneRaw:SITE_CONFIG[k];el.textContent=SITE_CONFIG[k];}
+    else el.innerHTML=esc(SITE_CONFIG[k]);
+  });
+  document.querySelectorAll("a[data-tel]").forEach(a=>{a.href="tel:"+SITE_CONFIG.phoneRaw;a.textContent=SITE_CONFIG.phone;});
+  document.documentElement.style.setProperty("--orange",SITE_CONFIG.accentColor);
+  document.title=SITE_CONFIG.businessName+" - Expert Car Repairs Nairobi";
+}
+(function(){const s=loadStore("lag_cfg_v1",null);if(s)Object.assign(SITE_CONFIG,s);})();
+window.addEventListener("DOMContentLoaded",applyConfig);
+</script>
+
+<!-- NAV -->
+<nav>
+  <a href="#" class="nav-logo">LANDFORD <span>AUTO</span></a>
+  <ul class="nav-links">
+    <li><a href="#services">Services</a></li>
+    <li><a href="#why">About</a></li>
+    <li><a href="#reviews">Reviews</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <div class="nav-right">
+    <button class="nav-dash-btn" onclick="openDashLogin()">&#9889; Dashboard</button>
+    <a href="tel:0715133147" class="nav-cta">0715 133 147</a>
+  </div>
+  <button class="burger"><span></span><span></span><span></span></button>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-slider" id="heroSlider">
+    <div class="hero-slide active" id="slide-0"></div>
+    <div class="hero-slide" id="slide-1"></div>
+    <div class="hero-slide" id="slide-2"></div>
+    <div class="hero-slide" id="slide-3"></div>
+    <div class="hero-slide" id="slide-4"></div>
+    <div class="hero-slide-overlay"></div>
+    <button class="slider-arrow prev" onclick="changeSlide(-1)" aria-label="Previous">&#8592;</button>
+    <button class="slider-arrow next" onclick="changeSlide(1)" aria-label="Next">&#8594;</button>
+    <div class="slider-dots" id="sliderDots"></div>
+    <div class="slide-counter"><span id="slideNum">1</span> / 5</div>
+  </div>
+  <div class="hero-content">
+    <div class="hero-tag">&#9889; <span data-cfg="tagline">Nairobi's Trusted Auto Experts</span></div>
+    <h1>
+      <span data-cfg="heroLine1">Drive In.</span>
+      <span class="accent" data-cfg="heroLine2">Drive Better.</span>
+    </h1>
+    <p class="hero-sub" data-cfg="heroSub"></p>
+    <div class="hero-btns">
+      <a href="#contact" class="btn-primary">Book a Service</a>
+      <a href="#services" class="btn-ghost">Our Services</a>
+    </div>
+    <div class="hero-stats">
+      <div><div class="stat-num"><span data-cfg="googleRating">4.5</span>&#9733;</div><div class="stat-label">Google Rating</div></div>
+      <div><div class="stat-num"><span data-cfg="reviewCount">22</span>+</div><div class="stat-label">Happy Reviews</div></div>
+      <div><div class="stat-num" data-cfg="yearsExp">10+</div><div class="stat-label">Years Experience</div></div>
+    </div>
+  </div>
+  <div class="hero-car">
+    <svg viewBox="0 0 700 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M80 200 L80 160 Q82 140 100 128 L200 110 Q240 82 320 76 L440 74 Q520 76 560 110 L620 128 Q638 140 640 160 L640 200 Z" fill="#16181d" stroke="#252830" stroke-width="1.5"/>
+      <path d="M200 112 Q250 72 340 66 L430 64 Q510 66 555 112 Z" fill="#0f1014" stroke="#252830" stroke-width="1.5"/>
+      <path d="M215 110 Q260 76 340 70 L435 70 Q510 76 550 110 Z" fill="#1a1e28" stroke="#f05a1a" stroke-width="0.8" opacity="0.6"/>
+      <circle cx="190" cy="200" r="44" fill="#111" stroke="#252830" stroke-width="2"/>
+      <circle cx="190" cy="200" r="28" fill="#0a0a0a" stroke="#f05a1a" stroke-width="1.5"/>
+      <circle cx="190" cy="200" r="8" fill="#f05a1a"/>
+      <circle cx="530" cy="200" r="44" fill="#111" stroke="#252830" stroke-width="2"/>
+      <circle cx="530" cy="200" r="28" fill="#0a0a0a" stroke="#f05a1a" stroke-width="1.5"/>
+      <circle cx="530" cy="200" r="8" fill="#f05a1a"/>
+      <rect x="590" y="148" width="50" height="14" rx="7" fill="#f05a1a" opacity="0.8"/>
+      <rect x="76" y="148" width="50" height="14" rx="7" fill="#f05a1a" opacity="0.5"/>
+      <line x1="30" y1="244" x2="670" y2="244" stroke="#252830" stroke-width="1"/>
+      <ellipse cx="360" cy="248" rx="260" ry="8" fill="#f05a1a" opacity="0.08"/>
+    </svg>
+  </div>
+</section>
+
+<!-- TICKER -->
+<div class="ticker-wrap">
+  <div class="ticker">
+    <span>Engine Diagnostics</span><span>Brake Service</span><span>Oil Changes</span>
+    <span>Suspension Repair</span><span>Electrical Systems</span><span>Tyre Services</span>
+    <span>AC Repair</span><span>Transmission Service</span>
+    <span>Engine Diagnostics</span><span>Brake Service</span><span>Oil Changes</span>
+    <span>Suspension Repair</span><span>Electrical Systems</span><span>Tyre Services</span>
+    <span>AC Repair</span><span>Transmission Service</span>
+  </div>
+</div>
+
+<!-- PHOTO GALLERY -->
+<section id="gallery">
+  <div class="gallery-header reveal">
+    <div>
+      <div class="section-label">Inside Our Garage</div>
+      <h2>Real Work,<br>Real Results</h2>
+      <p class="section-desc">A glimpse into our daily operations — from luxury SUVs to 4x4s, we handle them all.</p>
+    </div>
+    <a href="#contact" class="btn-primary">Book Your Car In</a>
+  </div>
+  <div class="gallery-track-wrap">
+    <div class="gallery-track" id="galleryTrack">
+      <div class="gallery-item" onclick="openLightbox(0)">
+        <img id="gimg-0" alt="Landford Auto Garage - mechanics servicing vehicles on hydraulic lift" loading="lazy">
+        <div class="gallery-item-overlay"></div>
+        <div class="gallery-item-label">Multi-Vehicle Servicing</div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox(1)">
+        <img id="gimg-1" alt="Landford Auto Garage - BMW on wheel alignment machine" loading="lazy">
+        <div class="gallery-item-overlay"></div>
+        <div class="gallery-item-label">Wheel Alignment</div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox(2)">
+        <img id="gimg-2" alt="Landford Auto Garage - mechanics replacing engine air filter" loading="lazy">
+        <div class="gallery-item-overlay"></div>
+        <div class="gallery-item-label">Engine Servicing</div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox(3)">
+        <img id="gimg-3" alt="Landford Auto Garage - luxury Mercedes GLS in workshop" loading="lazy">
+        <div class="gallery-item-overlay"></div>
+        <div class="gallery-item-label">Luxury Vehicle Care</div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox(4)">
+        <img id="gimg-4" alt="Landford Boost Garage - services board showing all car brands" loading="lazy">
+        <div class="gallery-item-overlay"></div>
+        <div class="gallery-item-label">All Brands Welcome</div>
+      </div>
+    </div>
+  </div>
+  <div class="gallery-nav">
+    <button class="gnav-btn" onclick="scrollGallery(-1)" aria-label="Previous">&#8592;</button>
+    <button class="gnav-btn" onclick="scrollGallery(1)" aria-label="Next">&#8594;</button>
+  </div>
+</section>
+
+<!-- LIGHTBOX -->
+<div id="lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer">
+  <button class="lb-close" onclick="closeLightbox()" aria-label="Close">&#10005;</button>
+  <button class="lb-nav lb-prev" onclick="lbNav(-1)" aria-label="Previous">&#8592;</button>
+  <img class="lb-img" id="lb-img" src="" alt="">
+  <div class="lb-caption" id="lb-caption"></div>
+  <button class="lb-nav lb-next" onclick="lbNav(1)" aria-label="Next">&#8594;</button>
+</div>
+
+<!-- SERVICES -->
+<section id="services">
+  <div class="services-header reveal">
+    <div>
+      <div class="section-label">What We Do</div>
+      <h2>Expert Services,<br>Every Time</h2>
+      <p class="section-desc">From routine maintenance to complex diagnostics, handled with precision and care.</p>
+    </div>
+    <a href="#" data-tel class="btn-primary">Call Now</a>
+  </div>
+  <div class="services-grid">
+    <div class="service-card reveal"><div class="service-icon">&#128295;</div><div class="service-title">Engine Diagnostics</div><div class="service-desc">Advanced computer diagnostics to pinpoint engine issues fast and accurately, saving you time and money.</div></div>
+    <div class="service-card reveal"><div class="service-icon">&#128760;</div><div class="service-title">Brake &amp; Tyre Service</div><div class="service-desc">Complete brake inspection, pad replacement, and tyre fitting. Your safety is our top priority.</div></div>
+    <div class="service-card reveal"><div class="service-icon">&#128297;</div><div class="service-title">Suspension &amp; Steering</div><div class="service-desc">Restore ride quality with full suspension overhauls, shock absorbers, and wheel alignment.</div></div>
+    <div class="service-card reveal"><div class="service-icon">&#9889;</div><div class="service-title">Electrical Systems</div><div class="service-desc">Wiring, battery, alternator, and full electrical troubleshooting for all makes and models.</div></div>
+    <div class="service-card reveal"><div class="service-icon">&#10052;</div><div class="service-title">AC &amp; Cooling System</div><div class="service-desc">Air conditioning recharge, radiator flush, and full cooling system servicing.</div></div>
+    <div class="service-card reveal"><div class="service-icon">&#128698;</div><div class="service-title">Oil &amp; Fluid Services</div><div class="service-desc">Engine oil changes, transmission fluid, coolant and brake fluid using premium products.</div></div>
+    <div class="service-card reveal"><div class="service-icon">&#9881;</div><div class="service-title">Transmission Service</div><div class="service-desc">Manual and automatic transmission repair and overhaul by skilled technicians.</div></div>
+    <div class="service-card reveal"><div class="service-icon">&#128663;</div><div class="service-title">General Servicing</div><div class="service-desc">Full vehicle check-ups, service schedules, and manufacturer-recommended maintenance packages.</div></div>
+  </div>
+</section>
+
+<!-- WHY US -->
+<section id="why">
+  <div class="why-visual reveal">
+    <div class="why-img-box">
+      <svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:80%;opacity:.7">
+        <rect x="40" y="200" width="320" height="4" rx="2" fill="#252830"/>
+        <path d="M70 180 L70 145 Q73 128 90 118 L160 104 Q195 82 230 80 L295 80 Q340 82 368 118 L380 145 L380 180 Z" fill="#16181d" stroke="#f05a1a" stroke-width="1.5"/>
+        <circle cx="140" cy="184" r="36" fill="#0a0a0a" stroke="#252830" stroke-width="1.5"/>
+        <circle cx="140" cy="184" r="22" fill="#111" stroke="#f05a1a" stroke-width="1.5"/>
+        <circle cx="140" cy="184" r="6" fill="#f05a1a"/>
+        <circle cx="310" cy="184" r="36" fill="#0a0a0a" stroke="#252830" stroke-width="1.5"/>
+        <circle cx="310" cy="184" r="22" fill="#111" stroke="#f05a1a" stroke-width="1.5"/>
+        <circle cx="310" cy="184" r="6" fill="#f05a1a"/>
+        <rect x="100" y="200" width="12" height="60" rx="4" fill="#252830"/>
+        <rect x="336" y="200" width="12" height="60" rx="4" fill="#252830"/>
+        <rect x="80" y="254" width="280" height="10" rx="5" fill="#1a1e28"/>
+        <g transform="translate(188,118) rotate(-45)">
+          <rect x="-4" y="-30" width="8" height="60" rx="4" fill="#f05a1a" opacity=".7"/>
+          <circle cx="0" cy="-30" r="10" fill="none" stroke="#f05a1a" stroke-width="3" opacity=".7"/>
+        </g>
+      </svg>
+      <div class="why-badge">
+        <div class="num"><span data-cfg="googleRating">4.5</span>&#9733;</div>
+        <div class="lbl">Google Rating</div>
+      </div>
+    </div>
+  </div>
+  <div class="why-text reveal">
+    <div class="section-label">Why Choose Us</div>
+    <h2>We Fix It Right,<br>The First Time</h2>
+    <p class="section-desc">Based on Five Star Road, Nairobi, Landford Auto Garage has built a reputation for honest, high-quality work. Clients travel from as far as Arusha for our exceptional service.</p>
+    <ul class="why-list">
+      <li class="why-item"><div class="why-dot"></div><div><div class="why-item-title">Certified Expert Mechanics</div><div class="why-item-desc">Years of hands-on experience with all makes and models, local and foreign vehicles.</div></div></li>
+      <li class="why-item"><div class="why-dot"></div><div><div class="why-item-title">Transparent Communication</div><div class="why-item-desc">We explain every repair clearly, provide accurate quotes, and keep you updated throughout.</div></div></li>
+      <li class="why-item"><div class="why-dot"></div><div><div class="why-item-title">Regional Reputation</div><div class="why-item-desc">Trusted by clients across East Africa including Tanzania. Our quality speaks beyond borders.</div></div></li>
+      <li class="why-item"><div class="why-dot"></div><div><div class="why-item-title">Fair &amp; Competitive Pricing</div><div class="why-item-desc">Professional-grade service at honest prices. No hidden charges, ever.</div></div></li>
+    </ul>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section id="reviews">
+  <div class="reviews-header reveal">
+    <div><div class="section-label">What Clients Say</div><h2>Trusted Across<br>East Africa</h2></div>
+    <div style="text-align:center">
+      <div class="rating-num" data-cfg="googleRating">4.5</div>
+      <div class="xstars"><span class="xstar">&#9733;</span><span class="xstar">&#9733;</span><span class="xstar">&#9733;</span><span class="xstar">&#9733;</span><span class="xstar" style="opacity:.4">&#9733;</span></div>
+      <div style="font-size:.8rem;color:var(--muted)">Based on <span data-cfg="reviewCount">22</span> Google Reviews</div>
+    </div>
+  </div>
+  <div class="reviews-grid">
+    <div class="review-card reveal">
+      <div class="xstars" style="margin-bottom:14px"><span class="xstar">&#9733;</span><span class="xstar">&#9733;</span><span class="xstar">&#9733;</span><span class="xstar">&#9733;</span><span class="xstar">&#9733;</span></div>
+      <p class="review-text">Traveled all the way from Arusha, Tanzania, and received the best mechanics and exceptional service. Absolutely worth every kilometre.</p>
+      <div class="reviewer"><div class="rev-avatar">CL</div><div><div class="rev-name">Catherine Lobulu</div><div class="rev-date">Local Guide &middot; 2 years ago</div></div></div>
+    </div>
+    <div class="review-card reveal">
+      <div class="xstars" style="margin-bottom:14px"><span class="xstar">&#9733;</span><span class="xstar">&#9733;</span><span class="xstar">&#9733;</span><span class="xstar">&#9733;</span><span class="xstar">&#9733;</span></div>
+      <p class="review-text">Service at its best with a dedicated and professional staff. They handled my car with great care and the turnaround was impressive.</p>
+      <div class="reviewer"><div class="rev-avatar">JM</div><div><div class="rev-name">Julius Munyao</div><div class="rev-date">Local Guide &middot; 1 year ago</div></div></div>
+    </div>
+    <div class="review-card reveal">
+      <div class="xstars" style="margin-bottom:14px"><span class="xstar">&#9733;</span><span class="xstar">&#9733;</span><span class="xstar">&#9733;</span><span class="xstar">&#9733;</span><span class="xstar">&#9733;</span></div>
+      <p class="review-text">Excellent garage. Diagnosed my car quickly, ready the same day. Knowledgeable team and very fair pricing. My go-to garage in Nairobi.</p>
+      <div class="reviewer"><div class="rev-avatar">DK</div><div><div class="rev-name">David K.</div><div class="rev-date">Verified Client</div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- SOCIAL -->
+<section id="social">
+  <div class="section-label">Follow &amp; Connect</div>
+  <div style="font-family:'Bebas Neue',sans-serif;font-size:clamp(2rem,4vw,3rem);color:var(--white);letter-spacing:2px;margin-bottom:12px" class="reveal">Stay in the Loop</div>
+  <p style="color:var(--muted);font-size:.95rem" class="reveal">Follow our journey, see live work updates, and get auto tips on social media.</p>
+  <div class="social-links reveal">
+    <a id="tiktok-link" href="https://www.tiktok.com/@landford_auto_garage" target="_blank" rel="noopener noreferrer" class="social-btn tiktok">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.33-6.34V8.95a8.27 8.27 0 004.84 1.55V7.07a4.85 4.85 0 01-1.07-.38z"/></svg>
+      TikTok <span data-cfg="tiktokHandle">@landford_auto_garage</span>
+    </a>
+    <a id="insta-link" href="https://www.instagram.com/landfordautogarage" target="_blank" rel="noopener noreferrer" class="social-btn insta">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+      Instagram <span data-cfg="instagramHandle">@landfordautogarage</span>
+    </a>
+    <a href="#" data-tel class="social-btn phone" href="tel:0715133147">&#128222; 0715 133 147</a>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="reveal">
+    <div class="section-label">Get In Touch</div>
+    <h2>Book Your<br>Service Today</h2>
+    <p class="section-desc">Drop by or reach out. Walk-ins welcome, appointments preferred.</p>
+    <br><br>
+    <div class="contact-item"><div class="contact-icon">&#128205;</div><div><div class="contact-label">Location</div><div class="contact-val" data-cfg="address">Five Star Road, Nairobi, Kenya</div></div></div>
+    <div class="contact-item"><div class="contact-icon">&#128222;</div><div><div class="contact-label">Phone Numbers</div><div class="contact-val"><a href="tel:0715133147" style="color:var(--orange);text-decoration:none;display:block;margin-bottom:4px">0715 133 147</a><a href="tel:0706525927" style="color:var(--orange);text-decoration:none;display:block;margin-bottom:4px">0706 525 927</a><a href="tel:0723574281" style="color:var(--orange);text-decoration:none;display:block">0723 574 281</a></div></div></div>
+    <div class="contact-item"><div class="contact-icon">&#128336;</div><div><div class="contact-label">Working Hours</div><div class="contact-val" data-cfg="hours">Mon - Sat: 8:00 AM - 6:00 PM</div></div></div>
+    <div class="contact-item"><div class="contact-icon">&#128506;</div><div><div class="contact-label">Find Us</div><div class="contact-val"><a id="maps-link" href="https://www.google.com/maps/search/?api=1&query=Landford+Auto+Garage+Five+Star+Road+Nairobi" target="_blank" rel="noopener noreferrer" style="color:var(--orange);text-decoration:none">MRJ9+WX Nairobi</a></div></div></div>
+    <div class="contact-item" style="margin-top:8px"><div class="contact-icon">&#128172;</div><div><div class="contact-label">WhatsApp Us</div><div class="contact-val" style="display:flex;gap:10px;flex-wrap:wrap;margin-top:4px">
+      <a href="https://wa.me/254715133147?text=Hello%20Landford%20Auto%20Garage%2C%20I%20would%20like%20to%20book%20a%20service" target="_blank" rel="noopener noreferrer" class="wa-btn">&#128172; WhatsApp 0715 133 147</a>
+      <a href="https://wa.me/254706525927?text=Hello%20Landford%20Auto%20Garage%2C%20I%20would%20like%20to%20book%20a%20service" target="_blank" rel="noopener noreferrer" class="wa-btn">&#128172; WhatsApp 0706 525 927</a>
+    </div></div></div>
+    <div class="contact-item" style="margin-top:4px"><div class="contact-icon">&#128205;</div><div><div class="contact-label">Get Directions</div><div class="contact-val" style="margin-top:4px">
+      <a href="https://www.google.com/maps/search/?api=1&query=Landford+Auto+Garage+Five+Star+Road+Nairobi" target="_blank" rel="noopener noreferrer" class="maps-btn">&#128205; Open in Google Maps</a>
+    </div></div></div>
+  </div>
+  <div class="contact-form reveal">
+    <h3 style="font-family:'Bebas Neue',sans-serif;font-size:1.8rem;color:var(--white);letter-spacing:1px;margin-bottom:28px">Request a Service</h3>
+    <div class="form-row"><label for="fn">Your Name</label><input type="text" id="fn" placeholder="e.g. John Kamau" maxlength="80" autocomplete="name"></div>
+    <div class="form-row"><label for="fp">Phone Number</label><input type="tel" id="fp" placeholder="e.g. 0712 345 678" maxlength="20" autocomplete="tel"></div>
+    <div class="form-row"><label for="fv">Vehicle Make &amp; Model</label><input type="text" id="fv" placeholder="e.g. Toyota Fielder 2018" maxlength="80"></div>
+    <div class="form-row"><label for="fs">Service Needed</label>
+      <select id="fs"><option value="">Select a service...</option><option>Engine Diagnostics</option><option>Brake &amp; Tyre Service</option><option>Suspension &amp; Steering</option><option>Electrical Systems</option><option>AC &amp; Cooling</option><option>Oil &amp; Fluids</option><option>Transmission Service</option><option>General Service</option><option>Other</option></select>
+    </div>
+    <div class="form-row"><label for="fm">Message (Optional)</label><textarea id="fm" placeholder="Describe the issue..." maxlength="500"></textarea></div>
+    <button class="form-submit" onclick="submitForm(event)">Submit Request &#8594;</button>
+    <div class="form-msg" id="form-msg"></div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div>
+      <div class="footer-logo">LANDFORD <span>AUTO</span> GARAGE</div>
+      <div class="footer-tagline">Five Star Road, Nairobi &middot; Excellence in Automotive Care</div>
+    </div>
+    <ul class="footer-links">
+      <li><a href="#services">Services</a></li><li><a href="#why">About</a></li>
+      <li><a href="#reviews">Reviews</a></li>
+      <li><a id="ft-tiktok" href="https://www.tiktok.com/@landford_auto_garage" target="_blank" rel="noopener noreferrer">TikTok</a></li>
+      <li><a id="ft-insta" href="https://www.instagram.com/landfordautogarage" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+      <li><a href="tel:0715133147">0715 133 147</a></li>
+    </ul>
+  </div>
+  <div class="footer-bottom">&copy; <span data-cfg="copyrightYear">2025</span> <span data-cfg="businessName">Landford Auto Garage</span>. All rights reserved. &middot; <a id="maps-link2" href="https://g.co/kgs/MRJ9WX" style="color:var(--orange);text-decoration:none" target="_blank" rel="noopener noreferrer">Find us on Google Maps</a></div>
+</footer>
+
+<!-- DASHBOARD LOGIN -->
+<div id="dash-login-overlay">
+  <div class="login-box">
+    <div style="font-size:2.5rem;margin-bottom:8px">&#128272;</div>
+    <h3>OWNER DASHBOARD</h3>
+    <p>Enter your password to access analytics, bookings &amp; settings</p>
+    <input type="password" id="dash-pw" class="login-input" placeholder="&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;" maxlength="64" autocomplete="current-password" onkeydown="if(event.key==='Enter')checkLogin()">
+    <button class="login-btn" onclick="checkLogin()">ENTER DASHBOARD</button>
+    <div class="login-error" id="login-err">&#10060; Incorrect password. <span id="att-msg"></span></div>
+    <div style="font-size:.75rem;color:var(--muted);margin-top:8px" id="lockout-msg"></div>
+    <br><button class="login-close" onclick="closeDashLogin()">&#8592; Back to website</button>
+  </div>
+</div>
+
+<!-- DASHBOARD MAIN -->
+<div id="dash-overlay">
+  <div class="dash-inner">
+    <div class="dash-topbar">
+      <div>
+        <div class="dash-title">&#9889; <span>OWNER</span> DASHBOARD</div>
+        <div style="font-size:.8rem;color:var(--muted);margin-top:2px">Last updated: <span id="dash-updated">-</span></div>
+      </div>
+      <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap">
+        <button class="xport-btn" onclick="exportCSV('bookings')">&#11015; Bookings CSV</button>
+        <button class="xport-btn" onclick="exportCSV('payments')">&#11015; Payments CSV</button>
+        <button class="dash-close" onclick="closeDash()">&#10005; Close</button>
+      </div>
+    </div>
+
+    <div class="dash-tabs">
+      <button class="dash-tab active" onclick="setPeriod('today',this)">Today</button>
+      <button class="dash-tab" onclick="setPeriod('week',this)">This Week</button>
+      <button class="dash-tab" onclick="setPeriod('month',this)">This Month</button>
+      <button class="dash-tab" onclick="setPeriod('all',this)">All Time</button>
+    </div>
+
+    <div class="dsn-nav">
+      <button class="dsn-btn active" onclick="showSec('analytics',this)">&#128202; Analytics</button>
+      <button class="dsn-btn" onclick="showSec('bookings',this)">&#128203; Bookings</button>
+      <button class="dsn-btn" onclick="showSec('payments',this)">&#128176; Payments</button>
+      <button class="dsn-btn" onclick="showSec('settings',this)">&#9881; Settings</button>
+    </div>
+
+    <!-- ANALYTICS -->
+    <div id="sec-analytics">
+      <div class="kpi-grid" id="kpi-cards"></div>
+      <div class="charts-row">
+        <div class="chart-card">
+          <div class="chart-title">&#128200; Daily Visits &mdash; Last 14 Days</div>
+          <div class="bar-chart" id="visits-chart"></div>
+          <div class="bar-lbls" id="visits-labels"></div>
+        </div>
+        <div class="chart-card">
+          <div class="chart-title">&#129713; Traffic Sources</div>
+          <div class="donut-wrap" id="donut-wrap"></div>
+        </div>
+      </div>
+      <div class="two-col">
+        <div class="act-card"><div class="chart-title">&#128336; Recent Activity</div><div id="activity-feed"></div></div>
+        <div class="act-card"><div class="chart-title">&#128241; Top Pages Visited</div><div id="pages-feed"></div></div>
+      </div>
+    </div>
+
+    <!-- BOOKINGS -->
+    <div id="sec-bookings" style="display:none">
+      <div class="tbl-wrap" style="margin-top:24px">
+        <div class="tbl-head">
+          <h4>&#128203; Service Requests / Bookings</h4>
+          <span style="font-size:.78rem;color:var(--muted)" id="booking-count"></span>
+        </div>
+        <div style="overflow-x:auto">
+          <table>
+            <thead><tr><th>#</th><th>Name</th><th>Phone</th><th>Vehicle</th><th>Service</th><th>Date</th><th>Status</th><th>Actions</th></tr></thead>
+            <tbody id="bookings-body"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- PAYMENTS -->
+    <div id="sec-payments" style="display:none">
+      <div class="tbl-wrap" style="margin-top:24px">
+        <div class="tbl-head">
+          <h4>&#128176; Payment Records</h4>
+          <span style="font-size:.78rem;color:var(--green);font-weight:600" id="revenue-total"></span>
+        </div>
+        <div class="pay-add-row">
+          <div><label style="font-size:.72rem;color:var(--muted);text-transform:uppercase;letter-spacing:.5px;display:block;margin-bottom:4px">Client</label><input type="text" id="py-c" placeholder="Client name" maxlength="80"></div>
+          <div><label style="font-size:.72rem;color:var(--muted);text-transform:uppercase;letter-spacing:.5px;display:block;margin-bottom:4px">Service</label><input type="text" id="py-s" placeholder="Service done" maxlength="80"></div>
+          <div><label style="font-size:.72rem;color:var(--muted);text-transform:uppercase;letter-spacing:.5px;display:block;margin-bottom:4px">Amount (KSh)</label><input type="number" id="py-a" placeholder="3500" min="0" max="9999999"></div>
+          <div><label style="font-size:.72rem;color:var(--muted);text-transform:uppercase;letter-spacing:.5px;display:block;margin-bottom:4px">Status</label><select id="py-st"><option value="paid">Paid</option><option value="unpaid">Unpaid</option></select></div>
+          <button class="add-btn" onclick="addPayment()">+ Add</button>
+        </div>
+        <div style="overflow-x:auto">
+          <table>
+            <thead><tr><th>#</th><th>Client</th><th>Service</th><th>Amount (KSh)</th><th>Date</th><th>Status</th><th>Del</th></tr></thead>
+            <tbody id="payments-body"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- SETTINGS -->
+    <div id="sec-settings" style="display:none">
+      <div class="cfg-wrap" style="padding-top:24px">
+        <div class="cfg-panel">
+          <h4>&#9881; Site Settings</h4>
+          <p>Edit any field below and click Save. All changes apply instantly to the live website. No coding needed.</p>
+          <div class="cfg-grid" id="config-form"></div>
+          <button class="cfg-save" onclick="saveConfig()">&#128190; Save Changes</button>
+          <span id="cfg-saved">&#10003; Saved!</span>
+          <div style="margin-top:32px;padding-top:24px;border-top:1px solid var(--border)">
+            <div style="font-size:.82rem;font-weight:600;color:var(--red);text-transform:uppercase;letter-spacing:.8px;margin-bottom:12px">&#9888; Danger Zone</div>
+            <button class="xport-btn" style="border-color:rgba(239,68,68,.4);color:var(--red)" onclick="if(confirm('Clear ALL analytics and activity data? This cannot be undone.'))clearAll()">&#128465; Clear All Analytics Data</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<script>
+/* =====================================================
+   SECURITY - Login with brute-force lockout
+   ===================================================== */
+const MAX_ATT=5, LOCK_MS=15*60*1000;
+let attempts=loadStore("lag_att",{count:0,until:0});
+
+function checkLogin(){
+  const now=Date.now();
+  if(attempts.until>now){
+    const m=Math.ceil((attempts.until-now)/60000);
+    document.getElementById("lockout-msg").textContent="Locked. Try again in "+m+" minute(s).";
+    return;
+  }
+  const pw=document.getElementById("dash-pw").value;
+  const exp=SITE_CONFIG.dashboardPassword||"";
+  // Constant-time compare to prevent timing attacks
+  let ok=pw.length===exp.length;
+  for(let i=0;i<Math.max(pw.length,exp.length);i++) ok=ok&&(pw.charCodeAt(i)===exp.charCodeAt(i));
+
+  if(ok){
+    attempts={count:0,until:0};saveStore("lag_att",attempts);
+    document.getElementById("login-err").style.display="none";
+    document.getElementById("lockout-msg").textContent="";
+    document.getElementById("dash-pw").value="";
+    document.getElementById("dash-login-overlay").style.display="none";
+    openDash();
+  } else {
+    attempts.count++;
+    if(attempts.count>=MAX_ATT){
+      attempts.until=Date.now()+LOCK_MS;attempts.count=0;
+      document.getElementById("lockout-msg").textContent="Account locked for 15 minutes.";
+    } else {
+      document.getElementById("att-msg").textContent="("+(MAX_ATT-attempts.count)+" attempts left)";
+    }
+    saveStore("lag_att",attempts);
+    document.getElementById("login-err").style.display="block";
+    logAct("Failed dashboard login attempt","#ef4444");
+  }
+}
+
+function openDashLogin(){
+  document.getElementById("dash-login-overlay").style.display="flex";
+  setTimeout(()=>document.getElementById("dash-pw").focus(),100);
+}
+function closeDashLogin(){
+  document.getElementById("dash-login-overlay").style.display="none";
+  document.getElementById("dash-pw").value="";
+  document.getElementById("login-err").style.display="none";
+}
+function closeDash(){document.getElementById("dash-overlay").style.display="none";}
+document.addEventListener("keydown",e=>{if(e.key==="Escape"){closeDashLogin();closeDash();}});
+document.getElementById("dash-overlay").addEventListener("contextmenu",e=>e.preventDefault());
+
+/* =====================================================
+   ANALYTICS ENGINE
+   ===================================================== */
+const SK="lag_ana_v1",BK="lag_bk_v1",PK="lag_py_v1",AK="lag_act_v1",PGK="lag_pg_v1";
+function today(){return new Date().toISOString().slice(0,10);}
+function nowStr(){return new Date().toLocaleString("en-KE");}
+function wAgo(){const d=new Date();d.setDate(d.getDate()-7);return d.toISOString().slice(0,10);}
+function mAgo(){const d=new Date();d.setDate(d.getDate()-30);return d.toISOString().slice(0,10);}
+
+function logAct(text,color){
+  const a=loadStore(AK,[]);
+  a.unshift({text,color:color||"#f05a1a",time:nowStr()});
+  if(a.length>50)a.length=50;
+  saveStore(AK,a);
+}
+function logPg(p){const pg=loadStore(PGK,{});pg[p]=(pg[p]||0)+1;saveStore(PGK,pg);}
+
+function recordVisit(){
+  const ana=loadStore(SK,{visits:[],sources:{},totalViews:0,uniqueDays:{}});
+  const t=today();
+  const entry=ana.visits.find(v=>v.date===t);
+  if(entry)entry.views++;else ana.visits.push({date:t,views:1});
+  if(ana.visits.length>60)ana.visits=ana.visits.slice(-60);
+  ana.totalViews=(ana.totalViews||0)+1;
+  if(!ana.uniqueDays[t])ana.uniqueDays[t]=1;
+  const ref=document.referrer||"Direct";
+  let src="Direct";
+  if(ref.includes("google"))src="Google";
+  else if(ref.includes("facebook")||ref.includes("fb"))src="Facebook";
+  else if(ref.includes("tiktok"))src="TikTok";
+  else if(ref.includes("instagram"))src="Instagram";
+  else if(ref.includes("whatsapp"))src="WhatsApp";
+  else if(ref!=="Direct")src="Other";
+  ana.sources[src]=(ana.sources[src]||0)+1;
+  saveStore(SK,ana);
+}
+recordVisit();
+logPg(location.hash||"#home");
+window.addEventListener("hashchange",()=>logPg(location.hash||"#home"));
+
+/* =====================================================
+   BOOKING FORM - with rate limiting + input sanitisation
+   ===================================================== */
+const RK="lag_rate_v1";
+function submitForm(e){
+  e.preventDefault();
+  const rd=loadStore(RK,{count:0,reset:0}),nt=Date.now();
+  if(rd.reset<nt){rd.count=0;rd.reset=nt+10*60*1000;}
+  if(rd.count>=3){showMsg("error","Too many submissions. Please call us directly.");return;}
+  rd.count++;saveStore(RK,rd);
+
+  const name=document.getElementById("fn").value.trim();
+  const phone=document.getElementById("fp").value.trim();
+  const vehicle=document.getElementById("fv").value.trim();
+  const service=document.getElementById("fs").value;
+  const msg=document.getElementById("fm").value.trim();
+
+  if(!name||name.length<2){showMsg("error","Please enter your full name.");return;}
+  if(!phone||phone.length<9){showMsg("error","Please enter a valid phone number.");return;}
+  if(!service){showMsg("error","Please select a service.");return;}
+  if(/[<>&"'`]/.test(name+phone+vehicle)){showMsg("error","Invalid characters in input.");return;}
+
+  const bks=loadStore(BK,[]);
+  bks.push({
+    id:"BK"+String(bks.length+1).padStart(4,"0"),
+    name:si(name),phone:si(phone),
+    vehicle:si(vehicle)||"Not specified",
+    service:si(service),message:si(msg),
+    date:today(),status:"pending"
+  });
+  saveStore(BK,bks);
+  logAct("New booking: "+si(name)+" - "+si(service),"#f05a1a");
+  showMsg("success","Thank you "+si(name)+"! Request received. We will call "+si(phone)+" shortly.");
+  ["fn","fp","fv","fm"].forEach(id=>{document.getElementById(id).value="";});
+  document.getElementById("fs").selectedIndex=0;
+}
+function showMsg(t,x){
+  const el=document.getElementById("form-msg");
+  el.className="form-msg "+t;el.textContent=x;
+  el.style.display="block";
+  setTimeout(()=>{el.style.display="none";},8000);
+}
+
+/* =====================================================
+   DASHBOARD RENDER
+   ===================================================== */
+let period="today";
+function openDash(){
+  document.getElementById("dash-overlay").style.display="flex";
+  document.getElementById("dash-updated").textContent=nowStr();
+  renderDash();buildCfgForm();
+}
+function setPeriod(p,btn){
+  period=p;
+  document.querySelectorAll(".dash-tab").forEach(b=>b.classList.remove("active"));
+  btn.classList.add("active");renderDash();
+}
+function filter(arr,dk){
+  if(period==="all")return arr;
+  const cut=period==="today"?today():period==="week"?wAgo():mAgo();
+  return arr.filter(x=>(x[dk]||"")>=cut);
+}
+function showSec(s,btn){
+  ["analytics","bookings","payments","settings"].forEach(x=>{
+    document.getElementById("sec-"+x).style.display=(x===s)?"block":"none";
+  });
+  document.querySelectorAll(".dsn-btn").forEach(b=>b.classList.remove("active"));
+  btn.classList.add("active");
+}
+
+function renderDash(){
+  const ana=loadStore(SK,{visits:[],sources:{},totalViews:0,uniqueDays:{}});
+  const bks=loadStore(BK,[]);const pays=loadStore(PK,[]);
+  const fb=filter(bks,"date");const fp=filter(pays,"date");
+  const rev=fp.filter(p=>p.status==="paid").reduce((s,p)=>s+Number(p.amount||0),0);
+  const pend=fp.filter(p=>p.status!=="paid").reduce((s,p)=>s+Number(p.amount||0),0);
+  const t=today();
+  const todayV=ana.visits.find(v=>v.date===t)?.views||0;
+  const totalV=period==="today"?todayV:period==="all"?ana.totalViews:ana.visits.filter(v=>v.date>=(period==="week"?wAgo():mAgo())).reduce((s,v)=>s+v.views,0);
+  const newBk=fb.filter(b=>b.status==="pending").length;
+
+  // KPI cards
+  const kpis=[
+    {icon:"&#128065;",val:totalV.toLocaleString(),label:"Page Views",color:"orange",delta:"Live tracking"},
+    {icon:"&#128101;",val:Object.keys(ana.uniqueDays||{}).length,label:"Unique Sessions",color:"blue",delta:"All time"},
+    {icon:"&#128203;",val:fb.length,label:"Bookings",color:"purple",delta:newBk+" new"},
+    {icon:"&#128176;",val:"KSh "+rev.toLocaleString(),label:"Revenue (Paid)",color:"green",delta:"Pending: KSh "+pend.toLocaleString()},
+    {icon:"&#9203;",val:fp.filter(p=>p.status!=="paid").length,label:"Unpaid Invoices",color:"yellow",delta:"Follow up needed"}
+  ];
+  document.getElementById("kpi-cards").innerHTML=kpis.map(k=>
+    "<div class='kpi-card "+k.color+"'><div class='kpi-icon'>"+k.icon+"</div><div class='kpi-val'>"+k.val+"</div><div class='kpi-label'>"+k.label+"</div><div class='kpi-delta'>"+k.delta+"</div></div>"
+  ).join("");
+
+  // Bar chart
+  let v14=ana.visits.slice(-14);
+  if(!v14.length){for(let i=13;i>=0;i--){const d=new Date();d.setDate(d.getDate()-i);v14.push({date:d.toISOString().slice(0,10),views:0});}}
+  const mx=Math.max(...v14.map(v=>v.views),1);
+  document.getElementById("visits-chart").innerHTML=v14.map(v=>
+    "<div class='bar-wrap'><div class='bar' style='height:"+Math.max(4,Math.round(v.views/mx*120))+"px'><span class='bar-tip'>"+v.views+" views<br>"+v.date+"</span></div></div>"
+  ).join("");
+  document.getElementById("visits-labels").innerHTML=v14.map(v=>
+    "<div class='bar-lbl'>"+v.date.slice(5)+"</div>"
+  ).join("");
+
+  // Donut chart
+  const src=ana.sources||{Direct:1};
+  const st=Object.values(src).reduce((s,v)=>s+v,0)||1;
+  const clr=["#f05a1a","#3b82f6","#22c55e","#f59e0b","#8b5cf6","#ec4899"];
+  const se=Object.entries(src);let off=0;
+  const r=54,c=2*Math.PI*r;
+  const paths=se.map(([,vl],i)=>{
+    const pct=vl/st,d2=pct*c;
+    const p="<circle cx='70' cy='70' r='"+r+"' fill='none' stroke='"+clr[i%clr.length]+"' stroke-width='20' stroke-dasharray='"+d2+" "+(c-d2)+"' stroke-dashoffset='"+(-off*c)+"'/>";
+    off+=pct;return p;
+  }).join("");
+  document.getElementById("donut-wrap").innerHTML=
+    "<svg class='donut' width='140' height='140' viewBox='0 0 140 140'>"+paths+"</svg>"+
+    "<div class='donut-legend'>"+se.map(([n,v],i)=>
+      "<div class='legend-item'><div class='legend-dot' style='background:"+clr[i%clr.length]+"'></div>"+esc(n)+": "+Math.round(v/st*100)+"% ("+v+")</div>"
+    ).join("")+"</div>";
+
+  // Activity feed
+  const acts=loadStore(AK,[]);
+  document.getElementById("activity-feed").innerHTML=acts.slice(0,10).map(a=>
+    "<div class='act-item'><div class='act-dot' style='background:"+(a.color||"var(--orange)")+"'></div><div><div class='act-text'>"+esc(a.text)+"</div><div class='act-time'>"+esc(a.time)+"</div></div></div>"
+  ).join("")||"<div style='color:var(--muted);font-size:.88rem;padding:10px 0'>No activity yet.</div>";
+
+  // Top pages
+  const pgs=loadStore(PGK,{});
+  const sp=Object.entries(pgs).sort((a,b)=>b[1]-a[1]).slice(0,8);
+  document.getElementById("pages-feed").innerHTML=sp.map(([p,cnt])=>
+    "<div class='act-item'><div class='act-dot' style='background:#3b82f6'></div><div><div class='act-text'>"+esc(p)+"</div><div class='act-time'>"+cnt+" visit"+(cnt!==1?"s":"")+"</div></div></div>"
+  ).join("")||"<div style='color:var(--muted);font-size:.88rem;padding:10px 0'>No page data yet.</div>";
+
+  // Bookings table
+  document.getElementById("booking-count").textContent=fb.length+" total, "+newBk+" pending";
+  document.getElementById("bookings-body").innerHTML=fb.slice().reverse().slice(0,25).map(b=>
+    "<tr><td style='color:var(--muted)'>"+esc(b.id)+"</td>"+
+    "<td><strong>"+esc(b.name)+"</strong></td>"+
+    "<td><a href='tel:"+esc(b.phone.replace(/\s/g,""))+"' style='color:var(--orange);text-decoration:none'>"+esc(b.phone)+"</a></td>"+
+    "<td>"+esc(b.vehicle)+"</td>"+
+    "<td>"+esc(b.service)+"</td>"+
+    "<td style='color:var(--muted)'>"+esc(b.date)+"</td>"+
+    "<td><span class='badge "+b.status+"'>"+esc(b.status)+"</span></td>"+
+    "<td>"+
+      "<button class='a-btn a-confirm' onclick='updBk(\""+esc(b.id)+"\",\"confirmed\")'>Confirm</button>"+
+      "<button class='a-btn a-done' onclick='updBk(\""+esc(b.id)+"\",\"completed\")'>Done</button>"+
+    "</td></tr>"
+  ).join("")||"<tr><td colspan='8' style='text-align:center;color:var(--muted);padding:28px'>No bookings yet. They appear here when clients submit the contact form.</td></tr>";
+
+  // Payments table
+  document.getElementById("revenue-total").textContent="Paid: KSh "+rev.toLocaleString()+" | Pending: KSh "+pend.toLocaleString();
+  document.getElementById("payments-body").innerHTML=fp.slice().reverse().map(p=>
+    "<tr><td style='color:var(--muted)'>"+esc(p.id)+"</td>"+
+    "<td>"+esc(p.client)+"</td>"+
+    "<td>"+esc(p.service)+"</td>"+
+    "<td><strong style='color:"+(p.status==="paid"?"var(--green)":"var(--yellow)")+"'>KSh "+Number(p.amount||0).toLocaleString()+"</strong></td>"+
+    "<td style='color:var(--muted)'>"+esc(p.date)+"</td>"+
+    "<td><span class='badge "+p.status+"'>"+esc(p.status)+"</span></td>"+
+    "<td><button class='a-btn a-del' onclick='delPay(\""+esc(p.id)+"\")'>&times;</button></td></tr>"
+  ).join("")||"<tr><td colspan='7' style='text-align:center;color:var(--muted);padding:28px'>No payments yet. Add one above.</td></tr>";
+}
+
+function updBk(id,status){
+  const b=loadStore(BK,[]);const x=b.find(v=>v.id===id);
+  if(x){x.status=status;saveStore(BK,b);logAct("Booking "+id+" marked as "+status,"#22c55e");renderDash();}
+}
+function addPayment(){
+  const client=si(document.getElementById("py-c").value.trim());
+  const service=si(document.getElementById("py-s").value.trim());
+  const amount=parseFloat(document.getElementById("py-a").value)||0;
+  const status=document.getElementById("py-st").value;
+  if(!client||!service||amount<=0){alert("Please fill in client name, service and amount.");return;}
+  const p=loadStore(PK,[]);
+  p.push({id:"PY"+String(p.length+1).padStart(4,"0"),client,service,amount:Math.min(amount,9999999),status,date:today()});
+  saveStore(PK,p);
+  logAct("Payment KSh "+amount.toLocaleString()+" from "+client+" ("+status+")","#22c55e");
+  ["py-c","py-s","py-a"].forEach(id=>{document.getElementById(id).value="";});
+  renderDash();
+}
+function delPay(id){
+  if(!confirm("Delete this payment record?"))return;
+  saveStore(PK,loadStore(PK,[]).filter(p=>p.id!==id));renderDash();
+}
+function clearAll(){
+  [SK,BK,PK,AK,PGK].forEach(k=>localStorage.removeItem(k));renderDash();
+}
+
+/* =====================================================
+   CSV EXPORT
+   ===================================================== */
+function exportCSV(type){
+  const bks=loadStore(BK,[]),pays=loadStore(PK,[]);
+  let rows,hdr,name;
+  if(type==="bookings"){
+    hdr=["ID","Name","Phone","Vehicle","Service","Date","Status"];
+    rows=bks.map(b=>[b.id,b.name,b.phone,b.vehicle,b.service,b.date,b.status]);
+    name="landford_bookings.csv";
+  } else {
+    hdr=["ID","Client","Service","Amount KSh","Date","Status"];
+    rows=pays.map(p=>[p.id,p.client,p.service,p.amount,p.date,p.status]);
+    name="landford_payments.csv";
+  }
+  const csv=[hdr,...rows].map(r=>r.map(v=>'"'+String(v).replace(/"/g,'""')+'"').join(",")).join("\n");
+  const a=document.createElement("a");
+  a.href="data:text/csv;charset=utf-8,"+encodeURIComponent(csv);
+  a.download=name;a.click();
+  logAct("Exported "+type+" CSV","#3b82f6");
+}
+
+/* =====================================================
+   SETTINGS CONFIG FORM
+   ===================================================== */
+const CFG_FIELDS=[
+  {key:"businessName",   label:"Business Name"},
+  {key:"tagline",        label:"Hero Tagline"},
+  {key:"phone",          label:"Phone (display)"},
+  {key:"phoneRaw",       label:"Phone (no spaces, for call links)"},
+  {key:"address",        label:"Address"},
+  {key:"hours",          label:"Working Hours"},
+  {key:"googleRating",   label:"Google Rating (e.g. 4.5)"},
+  {key:"reviewCount",    label:"Review Count"},
+  {key:"yearsExp",       label:"Years Experience"},
+  {key:"tiktokHandle",   label:"TikTok Handle"},
+  {key:"tiktokUrl",      label:"TikTok Full URL"},
+  {key:"instagramHandle",label:"Instagram Handle"},
+  {key:"instagramUrl",   label:"Instagram Full URL"},
+  {key:"dashboardPassword",label:"Dashboard Password (CHANGE THIS!)"},
+  {key:"accentColor",    label:"Accent Colour (hex, e.g. #f05a1a)"},
+  {key:"copyrightYear",  label:"Copyright Year"}
+];
+
+function buildCfgForm(){
+  document.getElementById("config-form").innerHTML=CFG_FIELDS.map(f=>
+    "<div class='cfg-field'><label>"+esc(f.label)+"</label>"+
+    "<input type='"+(f.key==="dashboardPassword"?"password":"text")+
+    "' id='cfg-"+f.key+"' value='"+si(SITE_CONFIG[f.key]||"")+"' autocomplete='off'></div>"
+  ).join("");
+}
+
+function saveConfig(){
+  CFG_FIELDS.forEach(f=>{
+    const el=document.getElementById("cfg-"+f.key);
+    if(el)SITE_CONFIG[f.key]=el.value.trim();
+  });
+  saveStore("lag_cfg_v1",SITE_CONFIG);
+  applyConfig();
+  const tk=document.getElementById("tiktok-link");if(tk)tk.href=SITE_CONFIG.tiktokUrl;
+  const ig=document.getElementById("insta-link");if(ig)ig.href=SITE_CONFIG.instagramUrl;
+  const ftk=document.getElementById("ft-tiktok");if(ftk)ftk.href=SITE_CONFIG.tiktokUrl;
+  const fig=document.getElementById("ft-insta");if(fig)fig.href=SITE_CONFIG.instagramUrl;
+  logAct("Site settings updated by owner","#22c55e");
+  const s=document.getElementById("cfg-saved");s.style.display="inline";
+  setTimeout(()=>{s.style.display="none";},3000);
+}
+
+/* =====================================================
+   SCROLL REVEAL + MISC
+   ===================================================== */
+const revEls=document.querySelectorAll(".reveal");
+const ro=new IntersectionObserver(es=>{
+  es.forEach(e=>{if(e.isIntersecting){e.target.classList.add("visible");ro.unobserve(e.target);}});
+},{threshold:.1});
+revEls.forEach(el=>ro.observe(el));
+document.querySelectorAll(".service-card.reveal").forEach((el,i)=>{el.style.transitionDelay=(i*.07)+"s";});
+document.querySelectorAll(".review-card.reveal").forEach((el,i)=>{el.style.transitionDelay=(i*.1)+"s";});
+// Ensure all external links have noopener for security
+document.querySelectorAll("a[target='_blank']").forEach(a=>a.setAttribute("rel","noopener noreferrer"));
+
+
+/* =====================================================
+   REAL PHOTOS - linked as separate files (fast loading)
+   ===================================================== */
+const PHOTO_DATA = [
+  {src:"pic1.jpeg", caption:"Landford Auto Garage - Multi-vehicle servicing bay, Nairobi"},
+  {src:"pic2.jpeg", caption:"BMW on professional wheel alignment machine"},
+  {src:"pic3.jpg", caption:"Expert engine servicing - air filter replacement"},
+  {src:"pic4.jpeg", caption:"Luxury Mercedes GLS - premium vehicle care"},
+  {src:"pic5.jpg", caption:"Landford Boost Garage - all makes serviced, genuine parts available"}
+];
+
+
+/* HERO SLIDER */
+let currentSlide=0, sliderTimer=null;
+
+function initSlider(){
+  PHOTO_DATA.forEach((p,i)=>{
+    const el=document.getElementById("slide-"+i);
+    if(el)el.style.backgroundImage="url("+p.src+")";
+  });
+  // Build dots
+  const dots=document.getElementById("sliderDots");
+  if(dots){
+    dots.innerHTML=PHOTO_DATA.map((_,i)=>
+      "<button class='sdot"+(i===0?" active":"")+"' onclick='goSlide("+i+")' aria-label='Slide "+(i+1)+"'></button>"
+    ).join("");
+  }
+  clearInterval(sliderTimer);
+  sliderTimer=setInterval(()=>changeSlide(1),6000);
+}
+
+function goSlide(n){
+  document.querySelectorAll(".hero-slide").forEach((s,i)=>{
+    s.classList.toggle("active",i===n);
+  });
+  document.querySelectorAll(".sdot").forEach((d,i)=>d.classList.toggle("active",i===n));
+  const sc=document.getElementById("slideNum");if(sc)sc.textContent=n+1;
+  currentSlide=n;
+  clearInterval(sliderTimer);
+  sliderTimer=setInterval(()=>changeSlide(1),6000);
+}
+
+function changeSlide(dir){
+  goSlide((currentSlide+dir+PHOTO_DATA.length)%PHOTO_DATA.length);
+}
+
+/* GALLERY */
+let galleryPos=0;
+function initGallery(){
+  PHOTO_DATA.forEach((p,i)=>{
+    const el=document.getElementById("gimg-"+i);
+    if(el){el.src=p.src;el.alt=p.caption;}
+  });
+}
+
+function scrollGallery(dir){
+  const track=document.getElementById("galleryTrack");
+  if(!track)return;
+  const items=track.querySelectorAll(".gallery-item");
+  const itemW=items[0]?.offsetWidth+4||0;
+  const visCount=window.innerWidth>900?3:window.innerWidth>600?2:1;
+  const maxPos=Math.max(0,items.length-visCount);
+  galleryPos=Math.max(0,Math.min(galleryPos+dir,maxPos));
+  track.style.transform="translateX(-"+(galleryPos*itemW)+"px)";
+}
+
+/* LIGHTBOX */
+let lbCurrent=0;
+function openLightbox(i){
+  lbCurrent=i;
+  const p=PHOTO_DATA[i];
+  document.getElementById("lb-img").src=p.src;
+  document.getElementById("lb-img").alt=p.caption;
+  document.getElementById("lb-caption").textContent=p.caption;
+  document.getElementById("lightbox").classList.add("open");
+  document.body.style.overflow="hidden";
+}
+function closeLightbox(){
+  document.getElementById("lightbox").classList.remove("open");
+  document.body.style.overflow="";
+}
+function lbNav(dir){
+  openLightbox((lbCurrent+dir+PHOTO_DATA.length)%PHOTO_DATA.length);
+}
+document.getElementById("lightbox")?.addEventListener("click",e=>{
+  if(e.target.id==="lightbox")closeLightbox();
+});
+document.addEventListener("keydown",e=>{
+  if(document.getElementById("lightbox").classList.contains("open")){
+    if(e.key==="ArrowLeft")lbNav(-1);
+    else if(e.key==="ArrowRight")lbNav(1);
+    else if(e.key==="Escape")closeLightbox();
+  }
+});
+
+// Init on load
+window.addEventListener("DOMContentLoaded",()=>{
+  initSlider();
+  initGallery();
+});
+
+</script>
+
+<!-- Floating WhatsApp Button -->
+<div style="position:fixed;bottom:28px;right:28px;z-index:999;display:flex;flex-direction:column;align-items:flex-end;gap:10px" id="wa-float">
+  <div id="wa-options" style="display:none;flex-direction:column;gap:8px;align-items:flex-end">
+    <a href="https://wa.me/254715133147?text=Hello%20Landford%20Auto%20Garage%2C%20I%20would%20like%20to%20book%20a%20service" target="_blank" rel="noopener noreferrer" style="background:#25D366;color:#fff;padding:10px 20px;border-radius:50px;text-decoration:none;font-size:.88rem;font-weight:600;box-shadow:0 4px 16px rgba(37,211,102,.5);white-space:nowrap;display:flex;align-items:center;gap:8px">&#128172; 0715 133 147</a>
+    <a href="https://wa.me/254706525927?text=Hello%20Landford%20Auto%20Garage%2C%20I%20would%20like%20to%20book%20a%20service" target="_blank" rel="noopener noreferrer" style="background:#25D366;color:#fff;padding:10px 20px;border-radius:50px;text-decoration:none;font-size:.88rem;font-weight:600;box-shadow:0 4px 16px rgba(37,211,102,.5);white-space:nowrap;display:flex;align-items:center;gap:8px">&#128172; 0706 525 927</a>
+  </div>
+  <button onclick="var o=document.getElementById('wa-options');o.style.display=o.style.display==='none'?'flex':'none'" style="width:60px;height:60px;border-radius:50%;background:#25D366;border:none;cursor:pointer;box-shadow:0 4px 20px rgba(37,211,102,.6);font-size:1.8rem;display:flex;align-items:center;justify-content:center;transition:transform .2s" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">&#128172;</button>
+</div>
+
+</body>
+</html>
