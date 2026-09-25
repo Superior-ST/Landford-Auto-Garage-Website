@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+# Block dashboard and admin paths
+Disallow: /#dash
+Disallow: /#dlogin
+
+# Sitemap location
+Sitemap: https://superior-st.github.io/Landford-Auto-Garage-Website/sitemap.xml
+
+# Crawl delay for politeness
+Crawl-delay: 2

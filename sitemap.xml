@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://superior-st.github.io/Landford-Auto-Garage-Website/</loc>
+    <lastmod>2026-09-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://superior-st.github.io/Landford-Auto-Garage-Website/pic1.jpeg</image:loc>
+      <image:caption>Landford Auto Garage — Multi-vehicle servicing bay, Nairobi</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://superior-st.github.io/Landford-Auto-Garage-Website/pic2.jpeg</image:loc>
+      <image:caption>Professional wheel alignment at Landford Auto Garage</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://superior-st.github.io/Landford-Auto-Garage-Website/pic3.jpg</image:loc>
+      <image:caption>Engine servicing — air filter replacement Nairobi</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://superior-st.github.io/Landford-Auto-Garage-Website/pic4.jpeg</image:loc>
+      <image:caption>Luxury Mercedes GLS — premium vehicle care</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://superior-st.github.io/Landford-Auto-Garage-Website/pic5.jpg</image:loc>
+      <image:caption>All car brands serviced — genuine parts available</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://superior-st.github.io/Landford-Auto-Garage-Website/privacy.html</loc>
+    <lastmod>2026-09-23</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+</urlset>

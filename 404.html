@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Page Not Found — Landford Auto Garage</title>
+<meta name="description" content="The page you're looking for doesn't exist. Return to Landford Auto Garage homepage.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23E63946'/><text y='.9em' font-size='75' x='12'>🔧</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Bebas+Neue&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0A0E1A;--surface:#131722;--surface2:#1C2130;--border:rgba(255,255,255,0.07);--red:#E63946;--white:#F8F9FA;--muted:#A0A4B8;--muted2:#C8CCE0;--text:#D8DCF0;--grad:linear-gradient(135deg,#E63946,#FF4D5A)}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%;overflow-x:hidden}
+body{background:var(--bg);color:var(--text);font-family:"Space Grotesk",sans-serif;-webkit-font-smoothing:antialiased;display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:100vh;text-align:center;padding:24px}
+::-webkit-scrollbar{width:5px}::-webkit-scrollbar-track{background:var(--bg)}::-webkit-scrollbar-thumb{background:var(--red);border-radius:3px}
+
+/* Background grid */
+body::before{content:"";position:fixed;inset:0;background-image:linear-gradient(rgba(255,255,255,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.04) 1px,transparent 1px);background-size:60px 60px;pointer-events:none;z-index:0}
+
+.container{position:relative;z-index:1;max-width:600px;width:100%}
+
+/* 404 big number */
+.big-404{font-family:"Bebas Neue",sans-serif;font-size:clamp(8rem,25vw,16rem);line-height:.85;letter-spacing:4px;background:var(--grad);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:0;animation:pulse404 3s ease-in-out infinite}
+@keyframes pulse404{0%,100%{opacity:1}50%{opacity:.7}}
+
+/* Broken car SVG */
+.car-icon{font-size:4rem;margin:8px 0 24px;display:block;animation:wobble 2s ease-in-out infinite}
+@keyframes wobble{0%,100%{transform:rotate(0deg)}25%{transform:rotate(-3deg)}75%{transform:rotate(3deg)}}
+
+h1{font-family:"Bebas Neue",sans-serif;font-size:clamp(1.8rem,5vw,2.8rem);color:var(--white);letter-spacing:1px;margin-bottom:12px}
+.subtitle{font-size:1rem;color:var(--muted2);line-height:1.7;margin-bottom:36px;max-width:480px;margin-left:auto;margin-right:auto}
+
+/* Action cards */
+.actions{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:36px}
+.action-card{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:20px 16px;text-decoration:none;transition:all .3s;display:flex;flex-direction:column;align-items:center;gap:8px}
+.action-card:hover{border-color:rgba(230,57,70,.4);transform:translateY(-4px);background:var(--surface2)}
+.action-icon{font-size:1.8rem}
+.action-label{font-size:.82rem;font-weight:700;color:var(--white);letter-spacing:.3px}
+.action-desc{font-size:.72rem;color:var(--muted);text-align:center}
+
+/* Primary buttons */
+.btn-home{display:inline-flex;align-items:center;gap:8px;background:var(--grad);color:#fff;padding:14px 32px;border-radius:10px;text-decoration:none;font-weight:700;font-size:.92rem;transition:all .3s;box-shadow:0 8px 24px rgba(230,57,70,.3);margin:4px}
+.btn-home:hover{transform:translateY(-2px);box-shadow:0 16px 36px rgba(230,57,70,.5)}
+.btn-wa{display:inline-flex;align-items:center;gap:8px;background:rgba(37,211,102,.12);border:1.5px solid rgba(37,211,102,.35);color:#25D366;padding:14px 28px;border-radius:10px;text-decoration:none;font-weight:700;font-size:.92rem;transition:all .3s;margin:4px}
+.btn-wa:hover{background:rgba(37,211,102,.22);transform:translateY(-2px)}
+
+/* Divider */
+.divider{border:none;border-top:1px solid var(--border);margin:32px 0}
+
+/* Quick links */
+.quick-links{display:flex;justify-content:center;gap:20px;flex-wrap:wrap}
+.quick-links a{color:var(--muted2);text-decoration:none;font-size:.82rem;font-weight:600;transition:color .2s;padding:4px 0}
+.quick-links a:hover{color:var(--red)}
+.quick-links span{color:var(--border)}
+
+/* Footer */
+.page-footer{margin-top:48px;font-size:.72rem;color:var(--muted)}
+
+/* Auto-redirect countdown */
+.countdown{display:inline-flex;align-items:center;gap:6px;background:var(--surface);border:1px solid var(--border);border-radius:100px;padding:6px 14px;font-size:.75rem;color:var(--muted2);margin-top:20px}
+.countdown-num{color:var(--red);font-weight:700;font-family:"Bebas Neue",sans-serif;font-size:1rem;min-width:18px;text-align:center}
+
+@media(max-width:500px){
+  .actions{grid-template-columns:1fr}
+  .btn-home,.btn-wa{width:100%;justify-content:center}
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- Big 404 -->
+  <div class="big-404">404</div>
+  <span class="car-icon">🚗</span>
+
+  <h1>Looks Like This Page Broke Down</h1>
+  <p class="subtitle">
+    The page you're looking for doesn't exist, was moved, or had a flat tyre.
+    Don't worry — our team is just a tap away.
+  </p>
+
+  <!-- Action cards -->
+  <div class="actions">
+    <a href="index.html" class="action-card">
+      <div class="action-icon">🏠</div>
+      <div class="action-label">Go Home</div>
+      <div class="action-desc">Back to the main website</div>
+    </a>
+    <a href="index.html#services" class="action-card">
+      <div class="action-icon">🔧</div>
+      <div class="action-label">Our Services</div>
+      <div class="action-desc">See what we offer</div>
+    </a>
+    <a href="index.html#contact" class="action-card">
+      <div class="action-icon">📅</div>
+      <div class="action-label">Book a Service</div>
+      <div class="action-desc">Request an appointment</div>
+    </a>
+    <a href="https://wa.me/254706525927?text=Hello%20Landford" target="_blank" rel="noopener noreferrer" class="action-card">
+      <div class="action-icon">💬</div>
+      <div class="action-label">WhatsApp Us</div>
+      <div class="action-desc">Quick response guaranteed</div>
+    </a>
+  </div>
+
+  <!-- Main buttons -->
+  <div>
+    <a href="index.html" class="btn-home">🏠 Back to Homepage</a>
+    <a href="https://wa.me/254706525927?text=Hello%20Landford%2C%20I%20need%20help" target="_blank" rel="noopener noreferrer" class="btn-wa">💬 Chat With Us</a>
+  </div>
+
+  <hr class="divider">
+
+  <!-- Quick navigation -->
+  <div class="quick-links">
+    <a href="index.html#services">Services</a>
+    <span>·</span>
+    <a href="index.html#reviews">Reviews</a>
+    <span>·</span>
+    <a href="index.html#gallery">Gallery</a>
+    <span>·</span>
+    <a href="index.html#contact">Contact</a>
+    <span>·</span>
+    <a href="privacy.html">Privacy</a>
+  </div>
+
+  <!-- Auto redirect -->
+  <div class="countdown">
+    <span>Redirecting to homepage in</span>
+    <span class="countdown-num" id="ct">15</span>
+    <span>seconds</span>
+  </div>
+
+  <div class="page-footer">
+    © <span id="yr"></span> Landford Auto Garage · Five Star Road, Nairobi, Kenya<br>
+    <a href="tel:0706525927" style="color:#E63946;text-decoration:none">0706 525 927</a> &nbsp;·&nbsp;
+    <a href="tel:0723574281" style="color:var(--muted);text-decoration:none">0723 574 281</a>
+  </div>
+
+</div>
+
+<script>
+document.getElementById('yr').textContent = new Date().getFullYear();
+
+// Countdown redirect
+let t = 15;
+const ct = document.getElementById('ct');
+const timer = setInterval(() => {
+  t--;
+  if(ct) ct.textContent = t;
+  if(t <= 0){
+    clearInterval(timer);
+    window.location.href = 'index.html';
+  }
+}, 1000);
+
+// Cancel redirect on interaction
+document.addEventListener('click', () => clearInterval(timer), {once: true});
+document.addEventListener('keydown', () => clearInterval(timer), {once: true});
+</script>
+
+</body>
+</html>
